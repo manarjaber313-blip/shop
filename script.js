@@ -1,7 +1,7 @@
 document.getElementById("contactform").onsubmit = function () {
-  alert("Your inquiry has been submitted.");
+  alert("done");
   return false;
 };
 
 document.getElementsByTagName("tr")[1].onclick = function () {
-  alert("CupCake Sold Out");
+  alert("Sold Out");
